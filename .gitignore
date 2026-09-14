@@ -1,0 +1,28 @@
+# Ignore all data
+Data/*
+
+# Keep the Data folder in GitHub
+!Data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
